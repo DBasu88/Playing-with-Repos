@@ -41,13 +41,12 @@ jobs:
           echo Is Git installed?
           git --version
           echo
-          echo What about buld tools?
+          echo What about build tools?
           mvn --version
           gradle --version
           ant -version
           echo
-          eco PLying with GitHub Actions.
-
+          echo Plying with GitHub Actions
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
